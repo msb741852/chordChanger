@@ -15,11 +15,12 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10vh;
+  margin-top: 5vh;
 }
 
 .select_section {
   text-align: center;
+  margin-top: 20vh;
 }
 
 main i {
