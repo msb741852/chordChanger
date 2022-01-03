@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/57b67e461c.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="title">Chord Changer</h1>
+
+    <section class="select_section">
+        <select id="before_select" onchange="before_chord()">
+            <option>현재 키를 선택해주세요.</option>
+            <option value="C">C</option>
+            <option value="D">D</option>
+            <option value="E">E</option>
+            <option value="F">F</option>
+            <option value="G">G</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+        </select>
+
+        <i class="fas fa-arrow-right"></i>
+
+        <select id="after_select" onchange="after_chord()">
+            <option>변경할 키를 선택해주세요.</option>
+            <option value="C">C</option>
+            <option value="D">D</option>
+            <option value="E">E</option>
+            <option value="F">F</option>
+            <option value="G">G</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+        </select>
+    </section>
+
+    <main>
+        <section class="before_chord">
+            <div><input type="text" id="before1"></div>
+            <div><input type="text" id="before2"></div>
+            <div><input type="text" id="before3"></div>
+            <div><input type="text" id="before4"></div>
+            <div><input type="text" id="before5"></div>
+            <div><input type="text" id="before6"></div>
+            <div><input type="text" id="before7"></div>
+        </section>  
+
+        <i class="fas fa-arrow-right"></i>
+
+        <section class="after_chord">
+            <div><input type="text" id="after1"></div>
+            <div><input type="text" id="after2"></div>
+            <div><input type="text" id="after3"></div>
+            <div><input type="text" id="after4"></div>
+            <div><input type="text" id="after5"></div>
+            <div><input type="text" id="after6"></div>
+            <div><input type="text" id="after7"></div>
+        </section> 
+    </main>
+</body>
+</html>
