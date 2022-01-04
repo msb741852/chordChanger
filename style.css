@@ -57,3 +57,7 @@ footer {
 .cover {
   display: flex;
 }
+
+.cover > div {
+  margin-right: 10px;
+}
