@@ -20,6 +20,7 @@ main {
 
 .select_section {
   text-align: center;
+  margin-top: 20vh;
 }
 
 main i {
@@ -32,4 +33,24 @@ select {
   font-size: 14px;
   border: none;
   border-radius: 4px;
+}
+
+input {
+  width: 20vw;
+  background-color: rgb(232, 238, 230);
+  margin: 3px;
+}
+
+.Roman_sec {
+  margin-right: 2vw;
+}
+
+.Roman_Num {
+  font-weight: bold;
+  margin: 3px;
+}
+
+footer {
+  text-align: center;
+  bottom: 0;
 }
