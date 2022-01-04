@@ -58,6 +58,7 @@ footer {
   display: flex;
 }
 
-.cover > div {
-  margin-right: 10px;
+.cover > div:first-child {
+  width: 10px;
+  margin-right: 5px;
 }
