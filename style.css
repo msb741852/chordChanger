@@ -27,6 +27,9 @@ main {
   font-weight: bold;
 }
 
+.before_chord input {
+  margin-left: 10px;
+}
 
 main i {
   padding: 20px;
@@ -49,4 +52,8 @@ input {
 footer {
   text-align: center;
   bottom: 0;
+}
+
+.cover {
+  display: flex;
 }
