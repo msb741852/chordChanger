@@ -23,6 +23,14 @@ main {
   margin-top: 15vh;
 }
 
+.before_chord div {
+  font-weight: bold;
+}
+
+.before_chord input {
+  margin-left: 10px;
+}
+
 main i {
   padding: 20px;
 }
@@ -38,15 +46,6 @@ select {
 input {
   width: 20vw;
   background-color: rgb(232, 238, 230);
-  margin: 3px;
-}
-
-.Roman_sec {
-  margin-right: 2vw;
-}
-
-.Roman_Num {
-  font-weight: bold;
   margin: 3px;
 }
 
